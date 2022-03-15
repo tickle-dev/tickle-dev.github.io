@@ -1,0 +1,24 @@
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  transition: all .4s ease 0s;
+  transform: translateX(250px);
+  background: #646465;
+  border-left: 1px solid rgba(255,255,255,.1);
+}
+
+@media (min-width: 992px) {
+  .portfolio-item:hover .caption {
+    background-color: rgba(33,40,40,0.45);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+}
+
+.text-start {
+  text-align: center !important;
+}
+
